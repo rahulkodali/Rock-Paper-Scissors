@@ -1,3 +1,4 @@
+
 #userinput = input("prompt>")
 #print("This is how you print stuff")
 
@@ -25,7 +26,7 @@ if playerselection == "scissors" and computerselection == "paper":
   print("You win, I chose paper")
 
 if playerselection == "rock" and computerselection == "scissors":
-  print("you win, I chose rock")
+  print("you win, I chose scissors")
 
 if playerselection == "paper" and computerselection == "scissors":
   print("I win, I chose scissors")
