@@ -14,3 +14,6 @@ elif computerselection == 1:
   computerselection = "paper"
 elif computerselection == 2:
   computerselection = "scissors"
+
+if playerselection == "rock" and computerselection == "paper":
+  print("I win, I chose paper")
